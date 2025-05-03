@@ -1,0 +1,68 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.App{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: flex-start;
+  background-color: blueviolet;
+}
+.Todo{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: rgb(24, 16, 71);
+  border:3px solid blueviolet;
+  width: 65vh ;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: large;
+}
+.Todo-action{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.TodoForm{
+  display: flex;
+}
+.todo-input{
+  outline: none;
+  padding: 10px;
+  width: 20rem;
+  font-size: large;
+  border-radius: 10px;
+  border: none;
+  margin-right: 5px;
+}
+.todo-btn{
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  outline: none;
+  border:none ;
+  font-size: medium;
+  font-weight: 500;
+  width: 100px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.TodoWrapper{
+  background-color: rgb(24, 16, 71);
+  width: 75vh;
+  color: aliceblue;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10vh;
+  align-items: center;
+  border-radius: 10px;
+}
+.delete,.edit{
+  cursor: pointer;
+}
